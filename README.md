@@ -4,7 +4,7 @@ A static export of the PEHRAN storefront for handcrafted Kashmiri pherans and sh
 
 ## Live site
 
-- **Live sandbox deployment:** https://4173-iwdnehdlxuwt75muklrdw-293d6a3c.us1.manus.computer/
+- **Live sandbox deployment:** Pehranbyperhan.com
 - **Original preview source:** https://4173-i63lnxgfezklrgp9kic63-1ca3be9c.us1.manus.computer/#collections
 - **GitHub repository:** https://github.com/nightframe01/uza
 
