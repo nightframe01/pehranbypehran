@@ -1,4 +1,4 @@
-# PEHRAN — Authentic Kashmiri Craftsmanship
+# PEHRAN-BY-PEHRAN — Authentic Kashmiri crafts
 
 A static export of the PEHRAN storefront for handcrafted Kashmiri pherans and shawls.
 
