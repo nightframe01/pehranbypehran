@@ -18,9 +18,15 @@ The live sandbox deployment serves the same committed files from this repository
 - `favicon.webp` — site icon
 - `.nojekyll` — disables Jekyll processing for compiled assets
 - `export-manifest.json` — source and asset manifest
+- `robots.txt` — crawler access rules and sitemap location
+- `sitemap.xml` — public homepage and collection URLs
 
 This is a static export of the currently deployed site. The compiled app includes a catalog fallback so the product collection can render without the original preview API.
 
 ## Optional GitHub Pages setup
 
 The files are ready for GitHub Pages from the `main` branch and repository root. The current GitHub CLI credential can push code but does not have permission to activate Pages automatically. A repository administrator can enable it at **Settings → Pages → Deploy from a branch → `main` → `/ (root)`**.
+
+## Google indexing
+
+The site now includes a canonical URL, crawler-visible title and description, Open Graph metadata, schema.org store data, a `robots.txt`, and a sitemap. After GitHub Pages is enabled, submit `https://nightframe01.github.io/uza/sitemap.xml` in [Google Search Console](https://search.google.com/search-console). Google controls when a new site appears in search results; indexing is not immediate or guaranteed.
