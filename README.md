@@ -1,17 +1,26 @@
 # PEHRAN — Authentic Kashmiri Craftsmanship
 
-A static GitHub Pages export of the PEHRAN storefront for handcrafted Kashmiri pherans and shawls.
+A static export of the PEHRAN storefront for handcrafted Kashmiri pherans and shawls.
 
 ## Live site
 
-- GitHub Pages: https://nightframe01.github.io/uza/
-- Source repository: https://github.com/nightframe01/uza
+- **Live sandbox deployment:** https://4173-iwdnehdlxuwt75muklrdw-293d6a3c.us1.manus.computer/
+- **Original preview source:** https://4173-i63lnxgfezklrgp9kic63-1ca3be9c.us1.manus.computer/#collections
+- **GitHub repository:** https://github.com/nightframe01/uza
+
+The live sandbox deployment serves the same committed files from this repository. It is available while the current Manus environment remains running.
 
 ## Included
 
 - `index.html` — application shell and metadata
+- `404.html` — fallback document for static hosting
 - `assets/` — compiled JavaScript, CSS, and product imagery
 - `favicon.webp` — site icon
 - `.nojekyll` — disables Jekyll processing for compiled assets
+- `export-manifest.json` — source and asset manifest
 
-This is a static export of the currently deployed site. The compiled app includes a catalog fallback so the product collection can render on GitHub Pages without the original preview API.
+This is a static export of the currently deployed site. The compiled app includes a catalog fallback so the product collection can render without the original preview API.
+
+## Optional GitHub Pages setup
+
+The files are ready for GitHub Pages from the `main` branch and repository root. The current GitHub CLI credential can push code but does not have permission to activate Pages automatically. A repository administrator can enable it at **Settings → Pages → Deploy from a branch → `main` → `/ (root)`**.
